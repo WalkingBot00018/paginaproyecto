@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form_class/reclamos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Quejas y Reclamos</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nombre Completo</span>
+                    <input type="text" placeholder="ingresa tu nombre" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">fecha del reporte</span>
+                    <input type="date" placeholder="" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">email</span>
+                    <input type="text" placeholder="ingresa tu email" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">telefono</span>
+                    <input type="text" placeholder="ingresa tu telefono" required>
+                </div>
+                <div class="input-box">
+                    <span class="details1">Detalle De  La queja</span>
+                    <input type="mensaje" placeholder="detalles" required>
+                </div>
+                <div class="input-box">
+                    <span class="details1">Resultados Deseados</span>
+                    <input type="mensaje" placeholder="resultados" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <input type="radio" name="genero" id="dot-1">
+                <input type="radio" name="genero" id="dot-2">
+                <input type="radio" name="genero" id="dot-3">
+                <span class="gender-details">genero</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">femenino</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="gender">masculino</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="gender">preferir no decir</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+    <footer>
+		<p>© 2023 Ayuda. Todos los derechos reservados.</p>
+	</footer>
+</body>
+</html>

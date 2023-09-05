@@ -1,0 +1,81 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.clase{
+    width: 400px;
+    background-color: rgb(10, 170, 245);
+    padding: 30px;
+    margin:auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}  
+.clase h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.clase1{
+    width: 100%;
+    background-color: rgb(11, 116, 203);
+    padding:10px;
+    border-radius:4px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+.clase.botons{
+    width: 100%;
+}
+body{
+    background-color: rgba(132, 211, 254, 0.934);
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: black;
+    color: blanchedalmond;
+    text-decoration: none;
+    padding:10px 15px;
+    display:block
+}
+.nav>li{
+    float:left;
+}
+.nav li a:hover{
+    background-color: rgb(110, 203, 249);
+}
+.nav li ul{
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+.nav li:hover>ul{
+    display: block;
+
+}
+button{
+    width: 100%;
+    background-color: rgb(11, 116, 203);
+    padding:10px;
+    border-radius:4px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    font-size: 15px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+#boton1{
+    margin-top: 10px;
+}
+
+.hola{
+    margin-top: 140px;
+    
+    color:blue
+}
