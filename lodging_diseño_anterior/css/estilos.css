@@ -35,7 +35,7 @@ header {
     background-attachment: fixed;
     position: relative;
     box-sizing: border-box;
-    background-color: #4a4d4b;
+    background-color: #2e2e2e;
 }
   .isquierda
 {
@@ -157,7 +157,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos h3 span{
-    background: #6ee5aa;
+    background: #4554f3;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -179,7 +179,7 @@ main .sobre-nosotros{
 
 
 .portafolio{
-    background: #73df89;
+    background: #0549b7;
 }
 
 .galeria-port{
@@ -302,7 +302,7 @@ main .sobre-nosotros{
 /* footer */
 
 footer{
-    background: #414141;
+    background: #333333;
     padding: 60px 0 30px 0;
     margin: auto;
     overflow: hidden;
